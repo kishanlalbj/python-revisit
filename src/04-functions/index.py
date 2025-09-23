@@ -1,9 +1,19 @@
 from math import pow
 
+
+# similar to js doc we can document the func like this
 def greet(name):
+    """
+    Greets the given name
+    
+    :param name: name of the person
+
+    :return: Hello :param name
+   """
     return f"Hello, {name}"
 
-print(greet("John"))
+print(greet("john"))
+
 
 def calculateBMI(height, weight):
     return weight /  pow(height, 2)
@@ -62,3 +72,11 @@ def calculateTotalNew(items=None):
     print(result)
 
 calculateTotalNew()
+
+
+def isEven(num):
+    """Returns if a num is even or not"""
+    return True if num % 2 == 0 else False
+
+print(isEven.__doc__)
+print(isEven.__name__)

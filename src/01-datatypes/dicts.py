@@ -20,7 +20,6 @@ person.get("street", "No Note")
 person.update(address)
 
 print(person)
-
 print(person.keys())
 print(person.values())
 print(person.items())
