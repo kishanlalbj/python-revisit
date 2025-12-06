@@ -19,8 +19,19 @@ print('door_no' in address)
 person.get("street", "No Note") 
 person.update(address)
 
+
+print("==================== Dict")
 print(person)
+
+print("==================== .keys()")
 print(person.keys())
+print(type(person.keys()))
+
+print("==================== .values()")
 print(person.values())
+
+print("==================== .items()")
 print(person.items())
+
+print("==================== len(dict)")
 print(len(person))

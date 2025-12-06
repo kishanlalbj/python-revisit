@@ -41,7 +41,6 @@ def multiply(*args, **kwargs):
 
 print(multiply(1,2,3,4, name="multiply"))
 
-
 dict = {"name": "kishan"}
 
 def greet_dict(obj):

@@ -1,7 +1,7 @@
 # set is unique
 set_one = set(["test", "test", "test_one", "test_two"]) # {"test", "test", "test_one", ...}
 
-set_two = set(["test", "test_one", "test_three" ])
+set_two = set(["test", "test_one", "test_three", "test-four" ])
 
 print(f"Union Sets: {set_one | set_two}")
 

@@ -5,6 +5,6 @@ list = [
     "Iced Ginger Tea"
 ]
 
-iced_tea = [tea for tea in list if len(tea) > 15]
+iced_tea = [tea for tea in list if len(tea) > 10]
 
 print(iced_tea)

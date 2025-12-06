@@ -1,4 +1,3 @@
-
 lang = "de"
 
 def greet(name):

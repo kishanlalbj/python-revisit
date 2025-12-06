@@ -37,7 +37,8 @@ match day.lower():
 
 
 
-# := is called walrus operator. we also them in Go in different context.
+# := is called walrus operator. way to assign a value while using it in an expression.
+#  we also them in Go in different context.
 value = 13
 
 if remainder := value % 5:
