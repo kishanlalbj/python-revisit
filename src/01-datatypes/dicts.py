@@ -5,7 +5,7 @@ person = {
     "age": 24
 }
 
-address = dict(street="Kenaru st", door_no="23/f", city="Poolampatti")
+address = dict(street="Ezhlu Kenaru st", door_no="23/f", city="Poolampatti")
 
 # person.name wont work.
 print(person["name"]) 
@@ -35,3 +35,28 @@ print(person.items())
 
 print("==================== len(dict)")
 print(len(person))
+
+# tuple concatenation
+print("==================== tuple concatenation")
+print(("a", "b") + ("c", "d"))
+
+# Tuple unpacking
+print("==================== tuple unpacking")
+a, b = ("hello", "world")
+print(a)
+
+print(b)
+
+# Tuple to list
+print("==================== tuple to list")
+my_tuple = (1, 2, 3)
+my_list = list(my_tuple)
+print(my_list)
+
+
+# compare tuples
+print("==================== compare tuples")
+tuple1 = (1, 2, 3)
+tuple2 = (1, 2, 3)
+print(tuple1 == tuple2)  # True, values are the same
+print(tuple1 is tuple2)  # False, different objects in memory

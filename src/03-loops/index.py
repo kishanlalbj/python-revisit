@@ -50,3 +50,35 @@ while temp < 100:
     temp = temp + randint(0, 15)
 else:
     if temp >= 100: print(f"water is boiling at {temp} C")
+
+
+
+# for loop
+for i in range(5):
+    print(f"for loop iteration: {i}")
+
+# while loop
+count = 0
+while count < 5:
+    print(f"while loop iteration: {count}")
+    count += 1
+
+# do while loop simulation
+count = 0
+while True:
+    print(f"do-while loop iteration: {count}")
+    count += 1
+    if count >= 5:
+        break
+
+# enumerate example
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(f"{index}: {fruit}")
+    
+# zip is used to combine two lists into a list of tuples
+# zip example
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+for name, age in zip(names, ages):
+    print(f"{name} is {age} years old")
